@@ -1,3 +1,5 @@
+package main;
+
 public class Card {
     CardSuit suit;
     CardValue value;

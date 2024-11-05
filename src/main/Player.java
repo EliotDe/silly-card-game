@@ -1,4 +1,8 @@
-public class Player implements PlayerInterface{
+package main;
+
+import main.Hand;
+
+public class Player implements PlayerInterface {
     private Hand hand = new Hand();
     private String username;
 

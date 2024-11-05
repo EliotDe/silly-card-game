@@ -1,6 +1,10 @@
+package main;
+
+import main.Card;
+
 import java.util.Stack;
 
-public class Pack implements PackInterface{
+public class Pack implements PackInterface {
     private Stack<Card> cards = new Stack<>();
     private Integer size = cards.size();
 

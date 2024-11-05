@@ -1,3 +1,7 @@
+package main;
+
+import main.Card;
+
 public class Hand {
     private Card[] cards = new Card[4];
 

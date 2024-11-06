@@ -1,11 +1,8 @@
-package test;
+package test.java;
 
-import main.CardValue;
-import org.junit.BeforeClass;
-import org.junit.Before;
+import main.java.CardValue;
 import org.junit.Test;
-import org.junit.After;
-import org.junit.AfterClass;
+
 import static org.junit.Assert.*;
 
 public class TestCardValue {

@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 public enum CardValue {
     ACE ( 1),

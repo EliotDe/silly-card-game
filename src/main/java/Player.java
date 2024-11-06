@@ -1,6 +1,4 @@
-package main;
-
-import main.Hand;
+package main.java;
 
 public class Player implements PlayerInterface {
     private Hand hand = new Hand();

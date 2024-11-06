@@ -1,6 +1,6 @@
-package main;
+package main.java;
 
-import main.Card;
+import main.java.Card;
 
 public class Hand {
     private Card[] cards = new Card[4];

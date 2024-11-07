@@ -5,7 +5,7 @@ public class Player implements PlayerInterface {
     private String username;
 
     public Player(String username){
-        this.username = username;
+        this.username = "Player" + IDCounter.nextId();
     }
 
     public void setHand(Hand hand){this.hand = hand;}

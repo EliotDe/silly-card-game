@@ -13,6 +13,7 @@ public class Pack implements PackInterface {
 
     public Pack(){}
 
+    @Override
     public void initialisePack(int cardNumber){
         Scanner scanner = new Scanner(System.in);
         boolean positive = cardNumber > 0;
@@ -48,24 +49,33 @@ public class Pack implements PackInterface {
 
     }
 
+    @Override
     public synchronized int getPackSize(){
         return this.size;
     }
 
-    public synchronized ArrayList<Card> getPack(){
+    @Override
+    public synchronized ArrayList<Card> getCards(){
         return cards;
     }
 
-    public synchronized void setPack(ArrayList<Card> cards){
+    @Override
+    public synchronized void setCards(ArrayList<Card> cards){
         this.cards = cards;
     }
 
+    @Override
     public synchronized Card drawCard(){
+        if(cards.isEmpty()){
+            throw new IllegalArgumentException("The pack is empty!");
+        }
+        size--;
         return cards.remove(cards.size()-1);
     }
 
+    @Override
     public synchronized void addCard(Card card){
-        cards.add(cards.size()-1, card);
+        cards.add(cards.size(), card);
     }
 
 }

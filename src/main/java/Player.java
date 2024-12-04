@@ -1,10 +1,19 @@
 package main.java;
 
 public class Player implements PlayerInterface {
+
+    /*
+     * make threadable
+     *
+     *
+     */
+
+    //setpreferredcard
+
     private Hand hand = new Hand();
     private String username;
 
-    public Player(String username){
+    public Player(){
         this.username = "Player" + IDCounter.nextId();
     }
 

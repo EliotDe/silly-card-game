@@ -1,3 +1,10 @@
+    /*TODO
+     *MAKE COMMENTS
+     *UPDATE README
+     *threading
+     */
+
+
 package main.java;
 
 import java.io.File;
@@ -28,11 +35,18 @@ public class Main {
     }
 
     public static Player[] dealHands(int playerNumber,  PackInterface pack){
+
+        /*
+         *
+         *
+         *
+         */
+
         // Creates an Array of players, and hands out cards to their decks
         Player[] players = new Player[playerNumber];
         for (int i = 0; i < playerNumber; i++){
             ArrayList<Card> playerHand = new ArrayList<>();
-            Player player = new Player("player" + (i+1));
+            Player player = new Player();
 //            for (int j = 0; j < 4; j++){
 //                playerHand.add(pack.drawCard());
 //            }
@@ -51,6 +65,13 @@ public class Main {
     }
 
     public static Deck[] dealDecks(int deckNumber, PackInterface pack){
+
+        /*
+         *
+         *
+         *
+         */
+
         Deck[] decks = new Deck[deckNumber];
         for (int i = 0; i< deckNumber; i++){
             Deck deck = new Deck();

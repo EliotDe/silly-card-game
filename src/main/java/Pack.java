@@ -8,6 +8,13 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Pack implements PackInterface {
+
+    /*
+     *
+     *
+     *
+     */
+
     protected ArrayList<Card> cards = new ArrayList<>();
     protected Integer size = cards.size();
 
@@ -51,21 +58,41 @@ public class Pack implements PackInterface {
 
     @Override
     public synchronized int getPackSize(){
+        /*
+         *
+         *
+         *
+         */
         return this.size;
     }
 
     @Override
     public synchronized ArrayList<Card> getCards(){
+        /*
+         *
+         *
+         *
+         */
         return cards;
     }
 
     @Override
     public synchronized void setCards(ArrayList<Card> cards){
+        /*
+         *
+         *
+         *
+         */
         this.cards = cards;
     }
 
     @Override
     public synchronized Card drawCard(){
+        /*
+         *
+         *
+         *
+         */
         if(cards.isEmpty()){
             throw new IllegalArgumentException("The pack is empty!");
         }
@@ -75,6 +102,11 @@ public class Pack implements PackInterface {
 
     @Override
     public synchronized void addCard(Card card){
+        /*
+         *
+         *
+         *
+         */
         cards.add(cards.size(), card);
     }
 

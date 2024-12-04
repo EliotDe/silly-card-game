@@ -1,6 +1,13 @@
 package main.java;
 
 public class Card {
+
+    /*
+     *
+     *
+     *
+     */
+
 //    private CardSuit suit;
 //    private CardValue value;
     private int integerValue;

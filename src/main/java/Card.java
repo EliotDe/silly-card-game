@@ -1,5 +1,6 @@
 package main.java;
 
+import java.util.concurrent.atomic.AtomicLong;
 public class Card {
 
     /*
@@ -10,7 +11,7 @@ public class Card {
 
 //    private CardSuit suit;
 //    private CardValue value;
-    private int integerValue;
+    private final AtomicLong integerValue;
 
 //    public Card(CardSuit suit, CardValue value){
 //        if(suit == null || value == null){
@@ -20,8 +21,8 @@ public class Card {
 //        this.value = value;
 //    }
 
-    public Card(int integerValue){
-        if(integerValue <= 0){
+    public Card(AtomicLong integerValue){
+        if(integerValue.get() <= 0){
             throw new IllegalArgumentException("Card value must be a positive integer");
         }
         this.integerValue = integerValue;
@@ -35,7 +36,7 @@ public class Card {
 //        return this.value;
 //    }
 
-    public int getIntegerValue() {
-        return integerValue;
+    public Long getIntegerValue() {
+        return integerValue.get();
     }
 }

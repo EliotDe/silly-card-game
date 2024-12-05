@@ -48,14 +48,14 @@ public class TestMain {
                 assertEquals(players[i].getHand().getCards().size(), 4);
             }
             // Test if pack has been handed out correctly
-            int[] p1Values = new int[4];
-            int[] p2Values = new int[4];
+            Long[] p1Values = new Long[4];
+            Long[] p2Values = new Long[4];
             for(int i = 0; i < 4; i++){
-                int cardValueP1 = players[0].getHand().getCards().get(i).getIntegerValue();
+                Long cardValueP1 = players[0].getHand().getCards().get(i).getIntegerValue();
                 p1Values[i] = cardValueP1;
             }
             for(int i = 0; i < 4; i++){
-                int cardValueP2 = players[1].getHand().getCards().get(i).getIntegerValue();
+                Long cardValueP2 = players[1].getHand().getCards().get(i).getIntegerValue();
                 p2Values[i] = cardValueP2;
             }
 
@@ -65,14 +65,14 @@ public class TestMain {
 //                assertEquals(p1Values[i], actualValue1);
 //                assertEquals(p2Values[i], actualValue2);
 //            }
-            assertEquals(p1Values[0], 16);
-            assertEquals(p1Values[1], 14);
-            assertEquals(p1Values[2], 12);
-            assertEquals(p1Values[3], 10);
-            assertEquals(p2Values[0], 15);
-            assertEquals(p2Values[1], 13);
-            assertEquals(p2Values[2], 11);
-            assertEquals(p2Values[3], 9);
+            assertEquals(p1Values[0].longValue(), 16L);
+            assertEquals(p1Values[1].longValue(), 14L);
+            assertEquals(p1Values[2].longValue(), 12L);
+            assertEquals(p1Values[3].longValue(), 10L);
+            assertEquals(p2Values[0].longValue(), 15L);
+            assertEquals(p2Values[1].longValue(), 13L);
+            assertEquals(p2Values[2].longValue(), 11L);
+            assertEquals(p2Values[3].longValue(), 9L);
 
 //            ArrayList<Card> cards = pack.getCards();
 //
@@ -111,28 +111,28 @@ public class TestMain {
 //            System.out.println(cards.get(i).getIntegerValue());
 //        }
 
-        int[] deck1Values = new int[4];
-        int[] deck2Values = new int[4];
+        Long[] deck1Values = new Long[4];
+        Long[] deck2Values = new Long[4];
 
         for(int i =0; i<4; i++){
-            int cardValueD1 = decks[0].getCards().get(i).getIntegerValue();
+            Long cardValueD1 = decks[0].getCards().get(i).getIntegerValue();
             deck1Values[i] = cardValueD1;
             //System.out.println(cardValueD1);
         }
 
         for(int i =0; i<4; i++){
-            int cardValueD2 = decks[1].getCards().get(i).getIntegerValue();
+           Long cardValueD2 = decks[1].getCards().get(i).getIntegerValue();
             deck2Values[i] = cardValueD2;
             //System.out.println(cardValueD2);
         }
 
-        assertEquals(deck1Values[0], 10);
-        assertEquals(deck1Values[1], 12);
-        assertEquals(deck1Values[2], 14);
-        assertEquals(deck1Values[3], 16);
-        assertEquals(deck2Values[0], 9);
-        assertEquals(deck2Values[1], 11);
-        assertEquals(deck2Values[2], 13);
-        assertEquals(deck2Values[3], 15);
+        assertEquals(deck1Values[0].longValue(), 10L);
+        assertEquals(deck1Values[1].longValue(), 12L);
+        assertEquals(deck1Values[2].longValue(), 14L);
+        assertEquals(deck1Values[3].longValue(), 16L);
+        assertEquals(deck2Values[0].longValue(), 9L);
+        assertEquals(deck2Values[1].longValue(), 11L);
+        assertEquals(deck2Values[2].longValue(), 13L);
+        assertEquals(deck2Values[3].longValue(), 15L);
     }
 }

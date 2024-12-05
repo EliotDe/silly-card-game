@@ -11,14 +11,19 @@ public class Player implements PlayerInterface {
     //setpreferredcard
 
     private Hand hand = new Hand();
-    private String username;
+    private final String username;
+    private final Long preferredValue;
 
     public Player(){
-        this.username = "Player" + IDCounter.nextId();
+        Long id = IDCounter.nextId();
+        this.preferredValue = id;
+        this.username = "Player" + id;
     }
 
-    public void setHand(Hand hand){this.hand = hand;}
-    public Hand getHand(){return hand;}
+    public synchronized void setHand(Hand hand){this.hand = hand;}
+    public synchronized Hand getHand(){return hand;}
+
+    public synchronized Long getPreferredValue(){return preferredValue;}
 
     public String getUsername(){return username;}
 

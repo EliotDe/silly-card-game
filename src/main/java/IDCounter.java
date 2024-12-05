@@ -1,5 +1,6 @@
 package main.java;
 
+import java.util.concurrent.atomic.AtomicLong;
 public class IDCounter {
 
     /*
@@ -8,14 +9,14 @@ public class IDCounter {
      *
      */
 
-    private static long counter = 0;
+    private static final AtomicLong counter = new AtomicLong(0);
 
-    public static synchronized long nextId() {
+    public static long nextId() {
         /*
          *
          *
          *
          */
-        return ++counter;
+        return counter.incrementAndGet();
     }
 }

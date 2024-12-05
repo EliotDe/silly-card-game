@@ -22,7 +22,7 @@ public class Hand {
 
     }
 
-    public void setCards(ArrayList<Card> cards){
+    public synchronized void setCards(ArrayList<Card> cards){
         /*
          *
          *
@@ -31,7 +31,7 @@ public class Hand {
         this.cards = cards;
     }
 
-    public void dealCard(Card card){
+    public synchronized void dealCard(Card card){
         /*
          *
          *
@@ -40,17 +40,19 @@ public class Hand {
         cards.add(card);
     }
 
-    public Card drawCard(Card card){
+    public synchronized void drawCard(Card card){
         /*
          *
          *
          *
          */
-        cards.remove(card);
+        if(!cards.remove(card)){
+            throw new IllegalArgumentException("Card is not in hand!");
+        }
     }
 
 
-    public ArrayList<Card> getCards(){
+    public synchronized ArrayList<Card> getCards(){
         /*
          *
          *

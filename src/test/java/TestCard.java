@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
 import static org.junit.Assert.*;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class TestCard {
 
@@ -17,8 +17,8 @@ public class TestCard {
 //        assertThrows(IllegalArgumentException.class, () -> new Card(CardSuit.CLUB,null));
 //        assertThrows(IllegalArgumentException.class, () -> new Card(null,CardValue.ACE));
 //        assertThrows(IllegalArgumentException.class, () -> new Card(null));
-        assertThrows(IllegalArgumentException.class, () -> new Card(new AtomicLong(0)));
-        assertThrows(IllegalArgumentException.class, () -> new Card(new AtomicLong(-1)));
+        assertThrows(IllegalArgumentException.class, () -> new Card(new AtomicInteger(0)));
+        assertThrows(IllegalArgumentException.class, () -> new Card(new AtomicInteger(-1)));
     }
 
 //    @Test
@@ -65,7 +65,7 @@ public class TestCard {
 
     @Test
     public void testGetIntegerValue(){
-        Card card1  = new Card(new AtomicLong(1));
-        assertEquals(1, card1.getIntegerValue().longValue());
+        Card card1  = new Card(new AtomicInteger(1));
+        assertEquals(1, card1.getIntegerValue());
     }
 }

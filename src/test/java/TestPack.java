@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import main.java.Pack;
 import main.java.Card;
@@ -25,7 +25,7 @@ public class TestPack {
         pack = new Pack();
 
         for(int i = 0; i<16; i++){
-            cards.add(new Card(new AtomicLong(i+1)));
+            cards.add(new Card(new AtomicInteger(i+1)));
         }
 
         pack.setCards(cards);

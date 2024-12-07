@@ -40,7 +40,7 @@ public class Hand {
         cards.add(card);
     }
 
-    public synchronized void drawCard(Card card){
+    public synchronized void removeCard(Card card){
         /*
          *
          *

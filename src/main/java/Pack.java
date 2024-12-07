@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Pack implements PackInterface {
 
@@ -41,7 +41,7 @@ public class Pack implements PackInterface {
                 lineCount = 0;
                 while (fileReader.hasNextLine()) {
                     String data = fileReader.nextLine();
-                    addCard(new Card(new AtomicLong(Long.parseLong(data))));
+                    addCard(new Card(new AtomicInteger(Integer.parseInt(data))));
                     lineCount++;
                 }
 

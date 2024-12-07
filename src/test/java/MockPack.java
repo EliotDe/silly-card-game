@@ -3,7 +3,7 @@ package test.java;
 import main.java.PackInterface;
 import main.java.Card;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class MockPack implements PackInterface {
     private ArrayList<Card> cards = new ArrayList<Card>();
@@ -13,7 +13,7 @@ public class MockPack implements PackInterface {
     public void initialisePack(int cardNumbers) {
         cards.clear();
         for (int i = 0; i < cardNumbers; i++) {
-            Card card = new Card(new AtomicLong(i+1));
+            Card card = new Card(new AtomicInteger(i+1));
             cards.add(card);
         }
         size = cards.size();

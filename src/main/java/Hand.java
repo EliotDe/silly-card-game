@@ -18,6 +18,7 @@ public class Hand {
 
 //    private Card[] cards = new Card[4];
     private ArrayList<Card> cards= new ArrayList<Card>();
+
     public Hand(){
 
     }
@@ -28,7 +29,7 @@ public class Hand {
          *
          *
          */
-        this.cards = cards;
+        this.cards = new ArrayList<>(cards);
     }
 
     public synchronized void dealCard(Card card){
@@ -46,6 +47,9 @@ public class Hand {
          *
          *
          */
+        System.out.println("Card to remove: " + card);
+        System.out.println("Cards in hand: " + cards);
+
         if(!cards.remove(card)){
             throw new IllegalArgumentException("Card is not in hand!");
         }

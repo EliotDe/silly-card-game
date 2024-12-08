@@ -1,22 +1,22 @@
-//package test.java;
-//import org.junit.Test;
-//
-//import java.util.ArrayList;
-//import java.util.InputMismatchException;
-//
-//import org.junit.Before;
-//import org.junit.Test;
-//import org.junit.After;
-//
-//import main.java.Main;
-//import main.java.Player;
-//import main.java.Card;
-//import main.java.Deck;
-//
-//import static org.junit.Assert.assertEquals;
-//import static org.junit.Assert.assertThrows;
-//
-//public class TestMain {
+package test.java;
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+
+import main.java.Main;
+import main.java.Player;
+import main.java.Card;
+import main.java.Deck;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+
+public class TestMain {
 //    private MockPack pack;
 //    Main main = new Main();
 //    int playerNumber;
@@ -135,4 +135,4 @@
 //        assertEquals(deck2Values[2].longValue(), 13L);
 //        assertEquals(deck2Values[3].longValue(), 15L);
 //    }
-//}
+}

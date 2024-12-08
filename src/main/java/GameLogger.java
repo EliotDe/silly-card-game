@@ -12,7 +12,7 @@ public class GameLogger {
 
     public GameLogger(Player player) {
         String currentDir = System.getProperty("user.dir");
-        this.playerLogFileName = currentDir + File.separator+ "Silly Card Game" + File.separator + "player" + player.getPreferredValue() + "_output.txt";
+        this.playerLogFileName = currentDir + File.separator+ "Silly Card Game" + File.separator + "outputs" + File.separator + "player" + player.getPreferredValue() + "_output.txt";
         System.out.println(playerLogFileName);
         initializeLogFile(player);
     }
@@ -20,7 +20,7 @@ public class GameLogger {
     // Initializes the log file with the player's initial hand
     private synchronized void initializeLogFile(Player player) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(playerLogFileName))) {
-            writer.write("player " + player.getPreferredValue() + " initial hand: " + handToString(player.getHand()));
+            writer.write(player.getUsername() + " initial hand: " + handToString(player.getHand()));
             writer.newLine();
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,9 +50,11 @@ public class GameLogger {
     // Logs the final game state for the player
     public synchronized void logGameEnd(Player player, String endState) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(playerLogFileName, true))) {
-            writer.write("player " + player.getPreferredValue() + " " + endState);
+            writer.write(player.getUsername() + " " + endState);
             writer.newLine();
-            writer.write("player " + player.getPreferredValue() + " final hand: " + handToString(player.getHand()));
+            writer.write(player.getUsername() + " exits");
+            writer.newLine();
+            writer.write(player.getUsername() + " final hand: " + handToString(player.getHand()));
             writer.newLine();
         } catch (IOException e) {
             e.printStackTrace();

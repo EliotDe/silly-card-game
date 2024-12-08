@@ -1,0 +1,127 @@
+player 7 initial hand: 36 90 44 62
+player 7 draws a 79 from deck 6
+player 7 discards a 36 to deck 7
+Hand: 90 44 62 79
+player 7 draws a 113 from deck 6
+player 7 discards a 90 to deck 7
+Hand: 44 62 79 113
+player 7 draws a 8 from deck 6
+player 7 discards a 44 to deck 7
+Hand: 62 79 113 8
+player 7 draws a 41 from deck 6
+player 7 discards a 62 to deck 7
+Hand: 79 113 8 41
+player 7 draws a 201 from deck 6
+player 7 discards a 79 to deck 7
+Hand: 113 8 41 201
+player 7 draws a 1 from deck 6
+player 7 discards a 113 to deck 7
+Hand: 8 41 201 1
+player 7 draws a 7 from deck 6
+player 7 discards a 8 to deck 7
+Hand: 41 201 1 7
+player 7 draws a 217 from deck 6
+player 7 discards a 41 to deck 7
+Hand: 201 1 7 217
+player 7 draws a 63 from deck 6
+player 7 discards a 201 to deck 7
+Hand: 1 7 217 63
+player 7 draws a 12 from deck 6
+player 7 discards a 1 to deck 7
+Hand: 7 217 63 12
+player 7 draws a 105 from deck 6
+player 7 discards a 217 to deck 7
+Hand: 7 63 12 105
+player 7 draws a 240 from deck 6
+player 7 discards a 63 to deck 7
+Hand: 7 12 105 240
+player 7 draws a 49 from deck 6
+player 7 discards a 12 to deck 7
+Hand: 7 105 240 49
+player 7 draws a 35 from deck 6
+player 7 discards a 105 to deck 7
+Hand: 7 240 49 35
+player 7 draws a 43 from deck 6
+player 7 discards a 240 to deck 7
+Hand: 7 49 35 43
+player 7 draws a 230 from deck 6
+player 7 discards a 49 to deck 7
+Hand: 7 35 43 230
+player 7 draws a 116 from deck 6
+player 7 discards a 35 to deck 7
+Hand: 7 43 230 116
+player 7 draws a 106 from deck 6
+player 7 discards a 43 to deck 7
+Hand: 7 230 116 106
+player 7 draws a 232 from deck 6
+player 7 discards a 230 to deck 7
+Hand: 7 116 106 232
+player 7 draws a 239 from deck 6
+player 7 discards a 116 to deck 7
+Hand: 7 106 232 239
+player 7 draws a 65 from deck 6
+player 7 discards a 106 to deck 7
+Hand: 7 232 239 65
+player 7 draws a 203 from deck 6
+player 7 discards a 232 to deck 7
+Hand: 7 239 65 203
+player 7 draws a 164 from deck 6
+player 7 discards a 239 to deck 7
+Hand: 7 65 203 164
+player 7 draws a 199 from deck 6
+player 7 discards a 65 to deck 7
+Hand: 7 203 164 199
+player 7 draws a 213 from deck 6
+player 7 discards a 203 to deck 7
+Hand: 7 164 199 213
+player 7 draws a 87 from deck 6
+player 7 discards a 164 to deck 7
+Hand: 7 199 213 87
+player 7 draws a 59 from deck 6
+player 7 discards a 199 to deck 7
+Hand: 7 213 87 59
+player 7 draws a 155 from deck 6
+player 7 discards a 213 to deck 7
+Hand: 7 87 59 155
+player 7 draws a 83 from deck 6
+player 7 discards a 87 to deck 7
+Hand: 7 59 155 83
+player 7 draws a 18 from deck 6
+player 7 discards a 59 to deck 7
+Hand: 7 155 83 18
+player 7 draws a 182 from deck 6
+player 7 discards a 155 to deck 7
+Hand: 7 83 18 182
+player 7 draws a 222 from deck 6
+player 7 discards a 83 to deck 7
+Hand: 7 18 182 222
+player 7 draws a 80 from deck 6
+player 7 discards a 18 to deck 7
+Hand: 7 182 222 80
+player 7 draws a 162 from deck 6
+player 7 discards a 182 to deck 7
+Hand: 7 222 80 162
+player 7 draws a 200 from deck 6
+player 7 discards a 222 to deck 7
+Hand: 7 80 162 200
+player 7 draws a 223 from deck 6
+player 7 discards a 80 to deck 7
+Hand: 7 162 200 223
+player 7 draws a 75 from deck 6
+player 7 discards a 162 to deck 7
+Hand: 7 200 223 75
+player 7 draws a 225 from deck 6
+player 7 discards a 200 to deck 7
+Hand: 7 223 75 225
+player 7 draws a 67 from deck 6
+player 7 discards a 223 to deck 7
+Hand: 7 75 225 67
+player 7 draws a 140 from deck 6
+player 7 discards a 75 to deck 7
+Hand: 7 225 67 140
+player 7 draws a 82 from deck 6
+player 7 discards a 225 to deck 7
+Hand: 7 67 140 82
+Player6 has informed Player7 that Player6 has won
+Player7 exits
+Player7 hand: 7 67 140 82

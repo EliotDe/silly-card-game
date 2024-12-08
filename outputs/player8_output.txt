@@ -1,0 +1,127 @@
+player 8 initial hand: 234 97 137 95
+player 8 draws a 28 from deck 7
+player 8 discards a 234 to deck 8
+Hand: 97 137 95 28
+player 8 draws a 77 from deck 7
+player 8 discards a 97 to deck 8
+Hand: 137 95 28 77
+player 8 draws a 19 from deck 7
+player 8 discards a 137 to deck 8
+Hand: 95 28 77 19
+player 8 draws a 96 from deck 7
+player 8 discards a 95 to deck 8
+Hand: 28 77 19 96
+player 8 draws a 36 from deck 7
+player 8 discards a 28 to deck 8
+Hand: 77 19 96 36
+player 8 draws a 90 from deck 7
+player 8 discards a 77 to deck 8
+Hand: 19 96 36 90
+player 8 draws a 44 from deck 7
+player 8 discards a 19 to deck 8
+Hand: 96 36 90 44
+player 8 draws a 62 from deck 7
+player 8 discards a 96 to deck 8
+Hand: 36 90 44 62
+player 8 draws a 79 from deck 7
+player 8 discards a 36 to deck 8
+Hand: 90 44 62 79
+player 8 draws a 113 from deck 7
+player 8 discards a 90 to deck 8
+Hand: 44 62 79 113
+player 8 draws a 8 from deck 7
+player 8 discards a 44 to deck 8
+Hand: 62 79 113 8
+player 8 draws a 41 from deck 7
+player 8 discards a 62 to deck 8
+Hand: 79 113 8 41
+player 8 draws a 201 from deck 7
+player 8 discards a 79 to deck 8
+Hand: 113 8 41 201
+player 8 draws a 1 from deck 7
+player 8 discards a 113 to deck 8
+Hand: 8 41 201 1
+player 8 draws a 217 from deck 7
+player 8 discards a 41 to deck 8
+Hand: 8 201 1 217
+player 8 draws a 63 from deck 7
+player 8 discards a 201 to deck 8
+Hand: 8 1 217 63
+player 8 draws a 12 from deck 7
+player 8 discards a 1 to deck 8
+Hand: 8 217 63 12
+player 8 draws a 105 from deck 7
+player 8 discards a 217 to deck 8
+Hand: 8 63 12 105
+player 8 draws a 240 from deck 7
+player 8 discards a 63 to deck 8
+Hand: 8 12 105 240
+player 8 draws a 49 from deck 7
+player 8 discards a 12 to deck 8
+Hand: 8 105 240 49
+player 8 draws a 35 from deck 7
+player 8 discards a 105 to deck 8
+Hand: 8 240 49 35
+player 8 draws a 43 from deck 7
+player 8 discards a 240 to deck 8
+Hand: 8 49 35 43
+player 8 draws a 230 from deck 7
+player 8 discards a 49 to deck 8
+Hand: 8 35 43 230
+player 8 draws a 116 from deck 7
+player 8 discards a 35 to deck 8
+Hand: 8 43 230 116
+player 8 draws a 106 from deck 7
+player 8 discards a 43 to deck 8
+Hand: 8 230 116 106
+player 8 draws a 232 from deck 7
+player 8 discards a 230 to deck 8
+Hand: 8 116 106 232
+player 8 draws a 239 from deck 7
+player 8 discards a 116 to deck 8
+Hand: 8 106 232 239
+player 8 draws a 65 from deck 7
+player 8 discards a 106 to deck 8
+Hand: 8 232 239 65
+player 8 draws a 203 from deck 7
+player 8 discards a 232 to deck 8
+Hand: 8 239 65 203
+player 8 draws a 164 from deck 7
+player 8 discards a 239 to deck 8
+Hand: 8 65 203 164
+player 8 draws a 199 from deck 7
+player 8 discards a 65 to deck 8
+Hand: 8 203 164 199
+player 8 draws a 213 from deck 7
+player 8 discards a 203 to deck 8
+Hand: 8 164 199 213
+player 8 draws a 87 from deck 7
+player 8 discards a 164 to deck 8
+Hand: 8 199 213 87
+player 8 draws a 59 from deck 7
+player 8 discards a 199 to deck 8
+Hand: 8 213 87 59
+player 8 draws a 155 from deck 7
+player 8 discards a 213 to deck 8
+Hand: 8 87 59 155
+player 8 draws a 83 from deck 7
+player 8 discards a 87 to deck 8
+Hand: 8 59 155 83
+player 8 draws a 18 from deck 7
+player 8 discards a 59 to deck 8
+Hand: 8 155 83 18
+player 8 draws a 182 from deck 7
+player 8 discards a 155 to deck 8
+Hand: 8 83 18 182
+player 8 draws a 222 from deck 7
+player 8 discards a 83 to deck 8
+Hand: 8 18 182 222
+player 8 draws a 80 from deck 7
+player 8 discards a 18 to deck 8
+Hand: 8 182 222 80
+player 8 draws a 162 from deck 7
+player 8 discards a 182 to deck 8
+Hand: 8 222 80 162
+Player6 has informed Player8 that Player6 has won
+Player8 exits
+Player8 hand: 8 222 80 162

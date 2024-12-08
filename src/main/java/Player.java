@@ -20,6 +20,7 @@ public class Player implements PlayerInterface, Runnable {
     private final int preferredValue;
     private Deck leftDeck;
     private Deck rightDeck;
+    private GameLogger logger;
 
     public static AtomicReference<String> winner = new AtomicReference<>(null);
 
@@ -39,6 +40,7 @@ public class Player implements PlayerInterface, Runnable {
     public synchronized Deck getLeftDeck(Deck leftDeck){return leftDeck;}
     public synchronized void setRightDeck(Deck rightDeck){this.rightDeck=rightDeck;}
     public synchronized Deck getRightDeck(Deck rightDeck){return rightDeck;}
+    public synchronized GameLogger getLogger(){return logger;}
 
     public synchronized void addDeckModificationListener(DeckModificationListener listener){
         listeners.add(listener);
@@ -54,7 +56,7 @@ public class Player implements PlayerInterface, Runnable {
 
     @Override
     public void run(){
-        GameLogger logger = new GameLogger(this);
+        logger = new GameLogger(this);
 
         while(!Thread.currentThread().isInterrupted()){
             //player loop
@@ -62,7 +64,7 @@ public class Player implements PlayerInterface, Runnable {
                 //draw card from left deck & log
                 Card drawnCard = drawCardFromLeftDeck();//leftDeck.drawCard();
                 hand.dealCard(drawnCard);
-                logger.logAction("player " + preferredValue + " draws a " + drawnCard.getIntegerValue() + " from deck " + getDealDeckID());
+                logger.logAction(this.username + " draws a " + drawnCard.getIntegerValue() + " from deck " + getDealDeckID());
                 fireDeckModificationEvent(leftDeck, "draw");
             }
             synchronized (rightDeck){
@@ -70,7 +72,7 @@ public class Player implements PlayerInterface, Runnable {
                 Card discardCard = pickCard();
                 //discard card to right deck & log
                 discardCardToRightDeck(discardCard);
-                logger.logAction("player " + preferredValue + " discards a " + discardCard.getIntegerValue() + " to deck " + preferredValue);
+                logger.logAction(this.username + " discards a " + discardCard.getIntegerValue() + " to deck " + preferredValue);
                 logger.logAction("Hand: " + logger.handToString(hand));
                 fireDeckModificationEvent(rightDeck, "discard");
             }
@@ -84,7 +86,7 @@ public class Player implements PlayerInterface, Runnable {
             };
 
             try{
-                Thread.sleep(10);
+                Thread.sleep(1);
             }catch (InterruptedException e){
                 Thread.currentThread().interrupt();
             }

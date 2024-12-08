@@ -1,0 +1,127 @@
+player 10 initial hand: 88 71 72 196
+player 10 draws a 127 from deck 9
+player 10 discards a 88 to deck 10
+Hand: 71 72 196 127
+player 10 draws a 120 from deck 9
+player 10 discards a 71 to deck 10
+Hand: 72 196 127 120
+player 10 draws a 93 from deck 9
+player 10 discards a 72 to deck 10
+Hand: 196 127 120 93
+player 10 draws a 100 from deck 9
+player 10 discards a 196 to deck 10
+Hand: 127 120 93 100
+player 10 draws a 45 from deck 9
+player 10 discards a 127 to deck 10
+Hand: 120 93 100 45
+player 10 draws a 171 from deck 9
+player 10 discards a 120 to deck 10
+Hand: 93 100 45 171
+player 10 draws a 119 from deck 9
+player 10 discards a 93 to deck 10
+Hand: 100 45 171 119
+player 10 draws a 147 from deck 9
+player 10 discards a 100 to deck 10
+Hand: 45 171 119 147
+player 10 draws a 132 from deck 9
+player 10 discards a 45 to deck 10
+Hand: 171 119 147 132
+player 10 draws a 6 from deck 9
+player 10 discards a 171 to deck 10
+Hand: 119 147 132 6
+player 10 draws a 58 from deck 9
+player 10 discards a 119 to deck 10
+Hand: 147 132 6 58
+player 10 draws a 145 from deck 9
+player 10 discards a 147 to deck 10
+Hand: 132 6 58 145
+player 10 draws a 234 from deck 9
+player 10 discards a 132 to deck 10
+Hand: 6 58 145 234
+player 10 draws a 97 from deck 9
+player 10 discards a 6 to deck 10
+Hand: 58 145 234 97
+player 10 draws a 137 from deck 9
+player 10 discards a 58 to deck 10
+Hand: 145 234 97 137
+player 10 draws a 95 from deck 9
+player 10 discards a 145 to deck 10
+Hand: 234 97 137 95
+player 10 draws a 28 from deck 9
+player 10 discards a 234 to deck 10
+Hand: 97 137 95 28
+player 10 draws a 77 from deck 9
+player 10 discards a 97 to deck 10
+Hand: 137 95 28 77
+player 10 draws a 19 from deck 9
+player 10 discards a 137 to deck 10
+Hand: 95 28 77 19
+player 10 draws a 96 from deck 9
+player 10 discards a 95 to deck 10
+Hand: 28 77 19 96
+player 10 draws a 36 from deck 9
+player 10 discards a 28 to deck 10
+Hand: 77 19 96 36
+player 10 draws a 90 from deck 9
+player 10 discards a 77 to deck 10
+Hand: 19 96 36 90
+player 10 draws a 44 from deck 9
+player 10 discards a 19 to deck 10
+Hand: 96 36 90 44
+player 10 draws a 62 from deck 9
+player 10 discards a 96 to deck 10
+Hand: 36 90 44 62
+player 10 draws a 79 from deck 9
+player 10 discards a 36 to deck 10
+Hand: 90 44 62 79
+player 10 draws a 113 from deck 9
+player 10 discards a 90 to deck 10
+Hand: 44 62 79 113
+player 10 draws a 41 from deck 9
+player 10 discards a 44 to deck 10
+Hand: 62 79 113 41
+player 10 draws a 201 from deck 9
+player 10 discards a 62 to deck 10
+Hand: 79 113 41 201
+player 10 draws a 1 from deck 9
+player 10 discards a 79 to deck 10
+Hand: 113 41 201 1
+player 10 draws a 217 from deck 9
+player 10 discards a 113 to deck 10
+Hand: 41 201 1 217
+player 10 draws a 63 from deck 9
+player 10 discards a 41 to deck 10
+Hand: 201 1 217 63
+player 10 draws a 12 from deck 9
+player 10 discards a 201 to deck 10
+Hand: 1 217 63 12
+player 10 draws a 105 from deck 9
+player 10 discards a 1 to deck 10
+Hand: 217 63 12 105
+player 10 draws a 240 from deck 9
+player 10 discards a 217 to deck 10
+Hand: 63 12 105 240
+player 10 draws a 49 from deck 9
+player 10 discards a 63 to deck 10
+Hand: 12 105 240 49
+player 10 draws a 35 from deck 9
+player 10 discards a 12 to deck 10
+Hand: 105 240 49 35
+player 10 draws a 43 from deck 9
+player 10 discards a 105 to deck 10
+Hand: 240 49 35 43
+player 10 draws a 230 from deck 9
+player 10 discards a 240 to deck 10
+Hand: 49 35 43 230
+player 10 draws a 116 from deck 9
+player 10 discards a 49 to deck 10
+Hand: 35 43 230 116
+player 10 draws a 106 from deck 9
+player 10 discards a 35 to deck 10
+Hand: 43 230 116 106
+player 10 draws a 232 from deck 9
+player 10 discards a 43 to deck 10
+Hand: 230 116 106 232
+Player6 has informed Player10 that Player6 has won
+Player10 exits
+Player10 hand: 230 116 106 232

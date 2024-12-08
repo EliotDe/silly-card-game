@@ -2,6 +2,7 @@ package main.java;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 import java.util.Scanner;
 
 // ADD CARD TIMER AS PER SPEC
@@ -43,6 +44,8 @@ public class CardGame implements Runnable{
 
         HashMap<Player, Deck[]> map = allocateDeck(playerArray, deckArray);
 
+        HashMap<Thread, Player> threadToPlayer = new HashMap<>();
+
         for(int i =0; i< playerArray.length;i++){
             Player player = playerArray[i];
             player.setLeftDeck(map.get(player)[0]);
@@ -53,18 +56,23 @@ public class CardGame implements Runnable{
             Thread playerThread = new Thread(player);
             threads.add(playerThread);
             playerThread.start();
+
+            threadToPlayer.put(playerThread, player);
         }
 
         boolean gameRunning = true;
         while (gameRunning) {
             for (int i = 0; i < threads.size(); i++) {
-                // Check if any thread has been interrupted
                 if (! threads.get(i).isAlive() ||  threads.get(i).isInterrupted()) {
                     gameRunning = false;
-                    // Interrupt all threads
                     for (int j = 0; j < threads.size(); j++) {
+                        Player player = threadToPlayer.get(threads.get(j));
+                        GameLogger logger = player.getLogger();
                         if ( threads.get(j).isAlive()) {
                             threads.get(j).interrupt();
+                            logger.logAction(Player.winner.get() + " has informed " + player.getUsername() + " that " + Player.winner.get() + " has won");
+                            logger.logAction(player.getUsername() + " exits");
+                            logger.logAction(player.getUsername() + " hand: " + logger.handToString(player.getHand()));
                         }
                     }
                     break;
@@ -72,22 +80,12 @@ public class CardGame implements Runnable{
             }
 
             try {
-                Thread.sleep(10);
+                Thread.sleep(1);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
         }
-
-
-
-        System.out.println("Game over. Winner: " + Player.winner.get());
-
-    }
-
-    private void interruptAllThreads(ArrayList<Thread> threads) {
-        for (int i = 0; i < threads.size(); i++) {
-            threads.get(i).interrupt();
-        }
+        System.out.println(Player.winner.get() + " won");
     }
 
     public Player[] dealHands(int playerNumber,  PackInterface pack){

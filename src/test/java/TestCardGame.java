@@ -1,25 +1,25 @@
-//package test.java;
-//
-//import main.java.Deck;
-//import org.junit.Test;
-//
-//import java.util.ArrayList;
-//import java.util.InputMismatchException;
-//import java.util.concurrent.atomic.AtomicInteger;
-//
-//import org.junit.Before;
-//import org.junit.Test;
-//import org.junit.After;
-//
-//import main.java.CardGame;
-//import main.java.Card;
-//import main.java.Hand;
-//import main.java.Player;
-//
-//import static org.junit.Assert.assertEquals;
-//
-//
-//public class TestCardGame {
+package test.java;
+
+import main.java.Deck;
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+
+import main.java.CardGame;
+import main.java.Card;
+import main.java.Hand;
+import main.java.Player;
+
+import static org.junit.Assert.assertEquals;
+
+
+public class TestCardGame {
 //    Player[] players;
 //    MockPack pack;
 //    int playerNumber = 2;
@@ -198,4 +198,4 @@
 //        assertEquals(deck2Values[2], 13);
 //        assertEquals(deck2Values[3], 15);
 //    }
-//}
+}

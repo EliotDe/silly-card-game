@@ -28,6 +28,12 @@ from the top of the left deck. Players should not hold onto non-preferred denomi
 ## Installation
 
 ## Getting-started
+absolutely do not keep the following in the end product   >:(
+1. cd C:\Users\yousu\OneDrive - University of Exeter\University Work\Software Dev\SD Coursework YAA ED
+2. javac 'Silly Card Game/src/main/java/CardGame.java'
+3. java 'Silly Card Game/src/main/java/CardGame.java'
+4. enter number of players
+5. enter absolute path of file containing cards
 
 ## Testing
 

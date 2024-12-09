@@ -8,17 +8,23 @@ import java.util.ArrayList;
 
 public class GameLogger {
 
+    /* Class which handles player logging throughout the game.
+     * Including initial logging, midgame logging, final gamestate logging.
+     */
+
     private final String playerLogFileName;
 
+    // GameLogger Constructor
     public GameLogger(Player player) {
         String currentDir = System.getProperty("user.dir");
         this.playerLogFileName = currentDir + File.separator+ "Silly Card Game" + File.separator + "outputs" + File.separator + "player" + player.getPreferredValue() + "_output.txt";
         System.out.println(playerLogFileName);
-        initializeLogFile(player);
+        initialiseLogFile(player);
     }
 
-    // Initializes the log file with the player's initial hand
-    private synchronized void initializeLogFile(Player player) {
+    // Initialises the log file with the player's initial hand
+    //changed spelling make sure
+    private synchronized void initialiseLogFile(Player player) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(playerLogFileName))) {
             writer.write(player.getUsername() + " initial hand: " + handToString(player.getHand()));
             writer.newLine();
@@ -37,7 +43,7 @@ public class GameLogger {
         }
     }
 
-    // Converts a player's hand to a string representation
+    // Converts a player's hand to a string for outputting on one line
     public synchronized String handToString(Hand hand) {
         ArrayList<Card> cards = hand.getCards();
         StringBuilder sb = new StringBuilder();
@@ -60,6 +66,7 @@ public class GameLogger {
             e.printStackTrace();
         }
     }
+
 }
 
 

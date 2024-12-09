@@ -71,28 +71,18 @@ public class TestHand {
     @Test
     public void testRemoveCard(){
         hand.setCards(cards1);
-        System.out.println("1:");
-        System.out.println(cards1);
         //test for absent cards
-        System.out.println("2:");
         IllegalArgumentException eNegative = assertThrows(IllegalArgumentException.class, () ->  hand.removeCard(new Card(new AtomicInteger(10))));
         //test exception message
         assertEquals("Card is not in hand!", eNegative.getMessage());
 
         assertEquals(2, hand.getCards().size());
 
-        System.out.println("3:");
         //test removing card from hand
-        System.out.println(cards1.get(0));
-        System.out.println(cards1);
         //Card firstCard = cards1.get(0);
         hand.removeCard(cards1.get(0));
-        System.out.println(cards1);
         assertEquals(1, hand.getCards().size());
-        System.out.println("4:");
-        System.out.println(hand.getCards());
         assertThrows(IllegalArgumentException.class, () -> hand.removeCard(cards1.get(0)));
-        System.out.println(cards1);
 
         //test that removal is based on card instance not card value
         hand.setCards(cards2);

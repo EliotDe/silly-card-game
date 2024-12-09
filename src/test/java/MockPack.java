@@ -2,6 +2,8 @@ package test.java;
 
 import main.java.PackInterface;
 import main.java.Card;
+
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -13,10 +15,26 @@ public class MockPack implements PackInterface {
     public void initialisePack(int cardNumbers) {
         cards.clear();
         for (int i = 0; i < cardNumbers; i++) {
-            Card card = new Card(new AtomicInteger(i+1));
+            Card card = null;
+            if(i<4){
+                card = new Card(new AtomicInteger(1));
+            }
+            else{
+                card = new Card(new AtomicInteger(i+1));
+            }
             cards.add(card);
         }
         size = cards.size();
+    }
+
+    @Override
+    public String getFilePathFromUser(){
+        return "mockFilePath.txt";
+    }
+
+    @Override
+    public ArrayList<String> readFile(String filePath) throws FileNotFoundException{
+        return new ArrayList<>();
     }
 
     @Override

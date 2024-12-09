@@ -1,124 +1,22 @@
-player 4 initial hand: 239 65 203 164
-player 4 draws a 199 from deck 3
-player 4 discards a 239 to deck 4
-Hand: 65 203 164 199
-player 4 draws a 213 from deck 3
-player 4 discards a 65 to deck 4
-Hand: 203 164 199 213
-player 4 draws a 6 from deck 3
-player 4 discards a 203 to deck 4
-Hand: 164 199 213 6
-player 4 draws a 6 from deck 3
-player 4 discards a 164 to deck 4
-Hand: 199 213 6 6
-player 4 draws a 87 from deck 3
-player 4 discards a 199 to deck 4
-Hand: 213 6 6 87
-player 4 draws a 59 from deck 3
-player 4 discards a 213 to deck 4
-Hand: 6 6 87 59
-player 4 draws a 155 from deck 3
-player 4 discards a 6 to deck 4
-Hand: 6 87 59 155
-player 4 draws a 83 from deck 3
-player 4 discards a 6 to deck 4
-Hand: 87 59 155 83
-player 4 draws a 18 from deck 3
-player 4 discards a 87 to deck 4
-Hand: 59 155 83 18
-player 4 draws a 182 from deck 3
-player 4 discards a 59 to deck 4
-Hand: 155 83 18 182
-player 4 draws a 222 from deck 3
-player 4 discards a 155 to deck 4
-Hand: 83 18 182 222
-player 4 draws a 80 from deck 3
-player 4 discards a 83 to deck 4
-Hand: 18 182 222 80
-player 4 draws a 162 from deck 3
-player 4 discards a 18 to deck 4
-Hand: 182 222 80 162
-player 4 draws a 200 from deck 3
-player 4 discards a 182 to deck 4
-Hand: 222 80 162 200
-player 4 draws a 223 from deck 3
-player 4 discards a 222 to deck 4
-Hand: 80 162 200 223
-player 4 draws a 75 from deck 3
-player 4 discards a 80 to deck 4
-Hand: 162 200 223 75
-player 4 draws a 225 from deck 3
-player 4 discards a 162 to deck 4
-Hand: 200 223 75 225
-player 4 draws a 67 from deck 3
-player 4 discards a 200 to deck 4
-Hand: 223 75 225 67
-player 4 draws a 140 from deck 3
-player 4 discards a 223 to deck 4
-Hand: 75 225 67 140
-player 4 draws a 82 from deck 3
-player 4 discards a 75 to deck 4
-Hand: 225 67 140 82
-player 4 draws a 6 from deck 3
-player 4 discards a 225 to deck 4
-Hand: 67 140 82 6
-player 4 draws a 29 from deck 3
-player 4 discards a 67 to deck 4
-Hand: 140 82 6 29
-player 4 draws a 185 from deck 3
-player 4 discards a 140 to deck 4
-Hand: 82 6 29 185
-player 4 draws a 159 from deck 3
-player 4 discards a 82 to deck 4
-Hand: 6 29 185 159
-player 4 draws a 107 from deck 3
-player 4 discards a 6 to deck 4
-Hand: 29 185 159 107
-player 4 draws a 197 from deck 3
-player 4 discards a 29 to deck 4
-Hand: 185 159 107 197
-player 4 draws a 170 from deck 3
-player 4 discards a 185 to deck 4
-Hand: 159 107 197 170
-player 4 draws a 202 from deck 3
-player 4 discards a 159 to deck 4
-Hand: 107 197 170 202
-player 4 draws a 88 from deck 3
-player 4 discards a 107 to deck 4
-Hand: 197 170 202 88
-player 4 draws a 71 from deck 3
-player 4 discards a 197 to deck 4
-Hand: 170 202 88 71
-player 4 draws a 72 from deck 3
-player 4 discards a 170 to deck 4
-Hand: 202 88 71 72
-player 4 draws a 196 from deck 3
-player 4 discards a 202 to deck 4
-Hand: 88 71 72 196
-player 4 draws a 127 from deck 3
-player 4 discards a 88 to deck 4
-Hand: 71 72 196 127
-player 4 draws a 120 from deck 3
-player 4 discards a 71 to deck 4
-Hand: 72 196 127 120
-player 4 draws a 93 from deck 3
-player 4 discards a 72 to deck 4
-Hand: 196 127 120 93
-player 4 draws a 100 from deck 3
-player 4 discards a 196 to deck 4
-Hand: 127 120 93 100
-player 4 draws a 45 from deck 3
-player 4 discards a 127 to deck 4
-Hand: 120 93 100 45
-player 4 draws a 171 from deck 3
-player 4 discards a 120 to deck 4
-Hand: 93 100 45 171
-player 4 draws a 119 from deck 3
-player 4 discards a 93 to deck 4
-Hand: 100 45 171 119
-player 4 draws a 147 from deck 3
-player 4 discards a 100 to deck 4
-Hand: 45 171 119 147
-Player6 has informed Player4 that Player6 has won
+Player4 initial hand: 100 2 30 2
+Player4 draws a 41 from deck 3
+Player4 discards a 100 to deck 4
+Hand: 2 30 2 41
+Player4 draws a 18 from deck 3
+Player4 discards a 30 to deck 4
+Hand: 2 2 41 18
+Player4 draws a 2 from deck 3
+Player4 discards a 41 to deck 4
+Hand: 2 2 18 2
+Player4 draws a 17 from deck 3
+Player4 discards a 18 to deck 4
+Hand: 2 2 2 17
+Player4 draws a 9 from deck 3
+Player4 discards a 17 to deck 4
+Hand: 2 2 2 9
+Player4 draws a 2 from deck 3
+Player4 discards a 9 to deck 4
+Hand: 2 2 2 2
+Player4 wins
 Player4 exits
-Player4 hand: 45 171 119 147
+Player4 final hand: 2 2 2 2

@@ -1,115 +1,667 @@
-player 6 initial hand: 201 6 1 7
-player 6 draws a 217 from deck 5
-player 6 discards a 201 to deck 6
-Hand: 6 1 7 217
-player 6 draws a 63 from deck 5
-player 6 discards a 1 to deck 6
-Hand: 6 7 217 63
-player 6 draws a 12 from deck 5
-player 6 discards a 7 to deck 6
-Hand: 6 217 63 12
-player 6 draws a 105 from deck 5
-player 6 discards a 217 to deck 6
-Hand: 6 63 12 105
-player 6 draws a 240 from deck 5
-player 6 discards a 63 to deck 6
-Hand: 6 12 105 240
-player 6 draws a 49 from deck 5
-player 6 discards a 12 to deck 6
-Hand: 6 105 240 49
-player 6 draws a 35 from deck 5
-player 6 discards a 105 to deck 6
-Hand: 6 240 49 35
-player 6 draws a 43 from deck 5
-player 6 discards a 240 to deck 6
-Hand: 6 49 35 43
-player 6 draws a 230 from deck 5
-player 6 discards a 49 to deck 6
-Hand: 6 35 43 230
-player 6 draws a 116 from deck 5
-player 6 discards a 35 to deck 6
-Hand: 6 43 230 116
-player 6 draws a 106 from deck 5
-player 6 discards a 43 to deck 6
-Hand: 6 230 116 106
-player 6 draws a 232 from deck 5
-player 6 discards a 230 to deck 6
-Hand: 6 116 106 232
-player 6 draws a 239 from deck 5
-player 6 discards a 116 to deck 6
-Hand: 6 106 232 239
-player 6 draws a 65 from deck 5
-player 6 discards a 106 to deck 6
-Hand: 6 232 239 65
-player 6 draws a 203 from deck 5
-player 6 discards a 232 to deck 6
-Hand: 6 239 65 203
-player 6 draws a 164 from deck 5
-player 6 discards a 239 to deck 6
-Hand: 6 65 203 164
-player 6 draws a 199 from deck 5
-player 6 discards a 65 to deck 6
-Hand: 6 203 164 199
-player 6 draws a 213 from deck 5
-player 6 discards a 203 to deck 6
-Hand: 6 164 199 213
-player 6 draws a 6 from deck 5
-player 6 discards a 164 to deck 6
-Hand: 6 199 213 6
-player 6 draws a 6 from deck 5
-player 6 discards a 199 to deck 6
-Hand: 6 213 6 6
-player 6 draws a 87 from deck 5
-player 6 discards a 213 to deck 6
-Hand: 6 6 6 87
-player 6 draws a 59 from deck 5
-player 6 discards a 87 to deck 6
-Hand: 6 6 6 59
-player 6 draws a 155 from deck 5
-player 6 discards a 59 to deck 6
-Hand: 6 6 6 155
-player 6 draws a 83 from deck 5
-player 6 discards a 155 to deck 6
-Hand: 6 6 6 83
-player 6 draws a 18 from deck 5
-player 6 discards a 83 to deck 6
-Hand: 6 6 6 18
-player 6 draws a 182 from deck 5
-player 6 discards a 18 to deck 6
-Hand: 6 6 6 182
-player 6 draws a 222 from deck 5
-player 6 discards a 182 to deck 6
-Hand: 6 6 6 222
-player 6 draws a 80 from deck 5
-player 6 discards a 222 to deck 6
-Hand: 6 6 6 80
-player 6 draws a 162 from deck 5
-player 6 discards a 80 to deck 6
-Hand: 6 6 6 162
-player 6 draws a 200 from deck 5
-player 6 discards a 162 to deck 6
-Hand: 6 6 6 200
-player 6 draws a 223 from deck 5
-player 6 discards a 200 to deck 6
-Hand: 6 6 6 223
-player 6 draws a 75 from deck 5
-player 6 discards a 223 to deck 6
-Hand: 6 6 6 75
-player 6 draws a 225 from deck 5
-player 6 discards a 75 to deck 6
-Hand: 6 6 6 225
-player 6 draws a 67 from deck 5
-player 6 discards a 225 to deck 6
-Hand: 6 6 6 67
-player 6 draws a 140 from deck 5
-player 6 discards a 67 to deck 6
-Hand: 6 6 6 140
-player 6 draws a 82 from deck 5
-player 6 discards a 140 to deck 6
-Hand: 6 6 6 82
-player 6 draws a 6 from deck 5
-player 6 discards a 82 to deck 6
-Hand: 6 6 6 6
-player 6 wins
-player 6 exits
-player 6 final hand: 6 6 6 6
+Player6 initial hand: 94 160 124 216
+Player6 draws a 81 from deck 5
+Player6 discards a 94 to deck 6
+Hand: 160 124 216 81
+Player6 draws a 52 from deck 5
+Player6 discards a 160 to deck 6
+Hand: 124 216 81 52
+Player6 draws a 35 from deck 5
+Player6 discards a 124 to deck 6
+Hand: 216 81 52 35
+Player6 draws a 63 from deck 5
+Player6 discards a 216 to deck 6
+Hand: 81 52 35 63
+Player6 draws a 235 from deck 5
+Player6 discards a 81 to deck 6
+Hand: 52 35 63 235
+Player6 draws a 152 from deck 5
+Player6 discards a 52 to deck 6
+Hand: 35 63 235 152
+Player6 draws a 180 from deck 5
+Player6 discards a 35 to deck 6
+Hand: 63 235 152 180
+Player6 draws a 25 from deck 5
+Player6 discards a 63 to deck 6
+Hand: 235 152 180 25
+Player6 draws a 181 from deck 5
+Player6 discards a 235 to deck 6
+Hand: 152 180 25 181
+Player6 draws a 187 from deck 5
+Player6 discards a 152 to deck 6
+Hand: 180 25 181 187
+Player6 draws a 203 from deck 5
+Player6 discards a 180 to deck 6
+Hand: 25 181 187 203
+Player6 draws a 116 from deck 5
+Player6 discards a 25 to deck 6
+Hand: 181 187 203 116
+Player6 draws a 229 from deck 5
+Player6 discards a 181 to deck 6
+Hand: 187 203 116 229
+Player6 draws a 118 from deck 5
+Player6 discards a 187 to deck 6
+Hand: 203 116 229 118
+Player6 draws a 56 from deck 5
+Player6 discards a 203 to deck 6
+Hand: 116 229 118 56
+Player6 draws a 54 from deck 5
+Player6 discards a 116 to deck 6
+Hand: 229 118 56 54
+Player6 draws a 109 from deck 5
+Player6 discards a 229 to deck 6
+Hand: 118 56 54 109
+Player6 draws a 220 from deck 5
+Player6 discards a 118 to deck 6
+Hand: 56 54 109 220
+Player6 draws a 155 from deck 5
+Player6 discards a 56 to deck 6
+Hand: 54 109 220 155
+Player6 draws a 213 from deck 5
+Player6 discards a 54 to deck 6
+Hand: 109 220 155 213
+Player6 draws a 2 from deck 5
+Player6 discards a 109 to deck 6
+Hand: 220 155 213 2
+Player6 draws a 108 from deck 5
+Player6 discards a 220 to deck 6
+Hand: 155 213 2 108
+Player6 draws a 102 from deck 5
+Player6 discards a 155 to deck 6
+Hand: 213 2 108 102
+Player6 draws a 34 from deck 5
+Player6 discards a 213 to deck 6
+Hand: 2 108 102 34
+Player6 draws a 131 from deck 5
+Player6 discards a 2 to deck 6
+Hand: 108 102 34 131
+Player6 draws a 150 from deck 5
+Player6 discards a 108 to deck 6
+Hand: 102 34 131 150
+Player6 draws a 223 from deck 5
+Player6 discards a 102 to deck 6
+Hand: 34 131 150 223
+Player6 draws a 182 from deck 5
+Player6 discards a 34 to deck 6
+Hand: 131 150 223 182
+Player6 draws a 163 from deck 5
+Player6 discards a 131 to deck 6
+Hand: 150 223 182 163
+Player6 draws a 86 from deck 5
+Player6 discards a 150 to deck 6
+Hand: 223 182 163 86
+Player6 draws a 69 from deck 5
+Player6 discards a 223 to deck 6
+Hand: 182 163 86 69
+Player6 draws a 193 from deck 5
+Player6 discards a 182 to deck 6
+Hand: 163 86 69 193
+Player6 draws a 214 from deck 5
+Player6 discards a 163 to deck 6
+Hand: 86 69 193 214
+Player6 draws a 50 from deck 5
+Player6 discards a 86 to deck 6
+Hand: 69 193 214 50
+Player6 draws a 185 from deck 5
+Player6 discards a 69 to deck 6
+Hand: 193 214 50 185
+Player6 draws a 67 from deck 5
+Player6 discards a 193 to deck 6
+Hand: 214 50 185 67
+Player6 draws a 184 from deck 5
+Player6 discards a 214 to deck 6
+Hand: 50 185 67 184
+Player6 draws a 208 from deck 5
+Player6 discards a 50 to deck 6
+Hand: 185 67 184 208
+Player6 draws a 139 from deck 5
+Player6 discards a 185 to deck 6
+Hand: 67 184 208 139
+Player6 draws a 16 from deck 5
+Player6 discards a 67 to deck 6
+Hand: 184 208 139 16
+Player6 draws a 71 from deck 5
+Player6 discards a 184 to deck 6
+Hand: 208 139 16 71
+Player6 draws a 107 from deck 5
+Player6 discards a 208 to deck 6
+Hand: 139 16 71 107
+Player6 draws a 202 from deck 5
+Player6 discards a 139 to deck 6
+Hand: 16 71 107 202
+Player6 draws a 32 from deck 5
+Player6 discards a 16 to deck 6
+Hand: 71 107 202 32
+Player6 draws a 176 from deck 5
+Player6 discards a 71 to deck 6
+Hand: 107 202 32 176
+Player6 draws a 228 from deck 5
+Player6 discards a 107 to deck 6
+Hand: 202 32 176 228
+Player6 draws a 210 from deck 5
+Player6 discards a 202 to deck 6
+Hand: 32 176 228 210
+Player6 draws a 31 from deck 5
+Player6 discards a 32 to deck 6
+Hand: 176 228 210 31
+Player6 draws a 171 from deck 5
+Player6 discards a 176 to deck 6
+Hand: 228 210 31 171
+Player6 draws a 127 from deck 5
+Player6 discards a 228 to deck 6
+Hand: 210 31 171 127
+Player6 draws a 100 from deck 5
+Player6 discards a 210 to deck 6
+Hand: 31 171 127 100
+Player6 draws a 14 from deck 5
+Player6 discards a 31 to deck 6
+Hand: 171 127 100 14
+Player6 draws a 233 from deck 5
+Player6 discards a 171 to deck 6
+Hand: 127 100 14 233
+Player6 draws a 104 from deck 5
+Player6 discards a 127 to deck 6
+Hand: 100 14 233 104
+Player6 draws a 57 from deck 5
+Player6 discards a 100 to deck 6
+Hand: 14 233 104 57
+Player6 draws a 13 from deck 5
+Player6 discards a 14 to deck 6
+Hand: 233 104 57 13
+Player6 draws a 97 from deck 5
+Player6 discards a 233 to deck 6
+Hand: 104 57 13 97
+Player6 draws a 132 from deck 5
+Player6 discards a 104 to deck 6
+Hand: 57 13 97 132
+Player6 draws a 145 from deck 5
+Player6 discards a 57 to deck 6
+Hand: 13 97 132 145
+Player6 draws a 175 from deck 5
+Player6 discards a 13 to deck 6
+Hand: 97 132 145 175
+Player6 draws a 33 from deck 5
+Player6 discards a 97 to deck 6
+Hand: 132 145 175 33
+Player6 draws a 22 from deck 5
+Player6 discards a 132 to deck 6
+Hand: 145 175 33 22
+Player6 draws a 219 from deck 5
+Player6 discards a 145 to deck 6
+Hand: 175 33 22 219
+Player6 draws a 91 from deck 5
+Player6 discards a 175 to deck 6
+Hand: 33 22 219 91
+Player6 draws a 90 from deck 5
+Player6 discards a 33 to deck 6
+Hand: 22 219 91 90
+Player6 draws a 96 from deck 5
+Player6 discards a 22 to deck 6
+Hand: 219 91 90 96
+Player6 draws a 133 from deck 5
+Player6 discards a 219 to deck 6
+Hand: 91 90 96 133
+Player6 draws a 129 from deck 5
+Player6 discards a 91 to deck 6
+Hand: 90 96 133 129
+Player6 draws a 205 from deck 5
+Player6 discards a 90 to deck 6
+Hand: 96 133 129 205
+Player6 draws a 238 from deck 5
+Player6 discards a 96 to deck 6
+Hand: 133 129 205 238
+Player6 draws a 212 from deck 5
+Player6 discards a 133 to deck 6
+Hand: 129 205 238 212
+Player6 draws a 79 from deck 5
+Player6 discards a 129 to deck 6
+Hand: 205 238 212 79
+Player6 draws a 41 from deck 5
+Player6 discards a 205 to deck 6
+Hand: 238 212 79 41
+Player6 draws a 195 from deck 5
+Player6 discards a 238 to deck 6
+Hand: 212 79 41 195
+Player6 draws a 114 from deck 5
+Player6 discards a 212 to deck 6
+Hand: 79 41 195 114
+Player6 draws a 154 from deck 5
+Player6 discards a 79 to deck 6
+Hand: 41 195 114 154
+Player6 draws a 146 from deck 5
+Player6 discards a 41 to deck 6
+Hand: 195 114 154 146
+Player6 draws a 156 from deck 5
+Player6 discards a 195 to deck 6
+Hand: 114 154 146 156
+Player6 draws a 49 from deck 5
+Player6 discards a 114 to deck 6
+Hand: 154 146 156 49
+Player6 draws a 217 from deck 5
+Player6 discards a 154 to deck 6
+Hand: 146 156 49 217
+Player6 draws a 105 from deck 5
+Player6 discards a 146 to deck 6
+Hand: 156 49 217 105
+Player6 draws a 126 from deck 5
+Player6 discards a 156 to deck 6
+Hand: 49 217 105 126
+Player6 draws a 78 from deck 5
+Player6 discards a 49 to deck 6
+Hand: 217 105 126 78
+Player6 draws a 24 from deck 5
+Player6 discards a 217 to deck 6
+Hand: 105 126 78 24
+Player6 draws a 190 from deck 5
+Player6 discards a 105 to deck 6
+Hand: 126 78 24 190
+Player6 draws a 10 from deck 5
+Player6 discards a 126 to deck 6
+Hand: 78 24 190 10
+Player6 draws a 65 from deck 5
+Player6 discards a 78 to deck 6
+Hand: 24 190 10 65
+Player6 draws a 230 from deck 5
+Player6 discards a 24 to deck 6
+Hand: 190 10 65 230
+Player6 draws a 232 from deck 5
+Player6 discards a 190 to deck 6
+Hand: 10 65 230 232
+Player6 draws a 149 from deck 5
+Player6 discards a 10 to deck 6
+Hand: 65 230 232 149
+Player6 draws a 37 from deck 5
+Player6 discards a 65 to deck 6
+Hand: 230 232 149 37
+Player6 draws a 99 from deck 5
+Player6 discards a 230 to deck 6
+Hand: 232 149 37 99
+Player6 draws a 60 from deck 5
+Player6 discards a 232 to deck 6
+Hand: 149 37 99 60
+Player6 draws a 38 from deck 5
+Player6 discards a 149 to deck 6
+Hand: 37 99 60 38
+Player6 draws a 59 from deck 5
+Player6 discards a 37 to deck 6
+Hand: 99 60 38 59
+Player6 draws a 199 from deck 5
+Player6 discards a 99 to deck 6
+Hand: 60 38 59 199
+Player6 draws a 6 from deck 5
+Player6 discards a 60 to deck 6
+Hand: 38 59 199 6
+Player6 draws a 136 from deck 5
+Player6 discards a 38 to deck 6
+Hand: 59 199 6 136
+Player6 draws a 76 from deck 5
+Player6 discards a 59 to deck 6
+Hand: 199 6 136 76
+Player6 draws a 84 from deck 5
+Player6 discards a 199 to deck 6
+Hand: 6 136 76 84
+Player6 draws a 157 from deck 5
+Player6 discards a 136 to deck 6
+Hand: 6 76 84 157
+Player6 draws a 89 from deck 5
+Player6 discards a 76 to deck 6
+Hand: 6 84 157 89
+Player6 draws a 200 from deck 5
+Player6 discards a 84 to deck 6
+Hand: 6 157 89 200
+Player6 draws a 18 from deck 5
+Player6 discards a 157 to deck 6
+Hand: 6 89 200 18
+Player6 draws a 80 from deck 5
+Player6 discards a 89 to deck 6
+Hand: 6 200 18 80
+Player6 draws a 218 from deck 5
+Player6 discards a 200 to deck 6
+Hand: 6 18 80 218
+Player6 draws a 20 from deck 5
+Player6 discards a 18 to deck 6
+Hand: 6 80 218 20
+Player6 draws a 179 from deck 5
+Player6 discards a 80 to deck 6
+Hand: 6 218 20 179
+Player6 draws a 221 from deck 5
+Player6 discards a 218 to deck 6
+Hand: 6 20 179 221
+Player6 draws a 66 from deck 5
+Player6 discards a 20 to deck 6
+Hand: 6 179 221 66
+Player6 draws a 225 from deck 5
+Player6 discards a 179 to deck 6
+Hand: 6 221 66 225
+Player6 draws a 82 from deck 5
+Player6 discards a 221 to deck 6
+Hand: 6 66 225 82
+Player6 draws a 128 from deck 5
+Player6 discards a 66 to deck 6
+Hand: 6 225 82 128
+Player6 draws a 135 from deck 5
+Player6 discards a 225 to deck 6
+Hand: 6 82 128 135
+Player6 draws a 112 from deck 5
+Player6 discards a 82 to deck 6
+Hand: 6 128 135 112
+Player6 draws a 55 from deck 5
+Player6 discards a 128 to deck 6
+Hand: 6 135 112 55
+Player6 draws a 85 from deck 5
+Player6 discards a 135 to deck 6
+Hand: 6 112 55 85
+Player6 draws a 88 from deck 5
+Player6 discards a 112 to deck 6
+Hand: 6 55 85 88
+Player6 draws a 196 from deck 5
+Player6 discards a 55 to deck 6
+Hand: 6 85 88 196
+Player6 draws a 170 from deck 5
+Player6 discards a 85 to deck 6
+Hand: 6 88 196 170
+Player6 draws a 178 from deck 5
+Player6 discards a 88 to deck 6
+Hand: 6 196 170 178
+Player6 draws a 236 from deck 5
+Player6 discards a 196 to deck 6
+Hand: 6 170 178 236
+Player6 draws a 101 from deck 5
+Player6 discards a 170 to deck 6
+Hand: 6 178 236 101
+Player6 draws a 45 from deck 5
+Player6 discards a 178 to deck 6
+Hand: 6 236 101 45
+Player6 draws a 147 from deck 5
+Player6 discards a 236 to deck 6
+Hand: 6 101 45 147
+Player6 draws a 93 from deck 5
+Player6 discards a 101 to deck 6
+Hand: 6 45 147 93
+Player6 draws a 142 from deck 5
+Player6 discards a 45 to deck 6
+Hand: 6 147 93 142
+Player6 draws a 98 from deck 5
+Player6 discards a 147 to deck 6
+Hand: 6 93 142 98
+Player6 draws a 172 from deck 5
+Player6 discards a 93 to deck 6
+Hand: 6 142 98 172
+Player6 draws a 144 from deck 5
+Player6 discards a 142 to deck 6
+Hand: 6 98 172 144
+Player6 draws a 234 from deck 5
+Player6 discards a 98 to deck 6
+Hand: 6 172 144 234
+Player6 draws a 95 from deck 5
+Player6 discards a 172 to deck 6
+Hand: 6 144 234 95
+Player6 draws a 58 from deck 5
+Player6 discards a 144 to deck 6
+Hand: 6 234 95 58
+Player6 draws a 110 from deck 5
+Player6 discards a 234 to deck 6
+Hand: 6 95 58 110
+Player6 draws a 141 from deck 5
+Player6 discards a 95 to deck 6
+Hand: 6 58 110 141
+Player6 draws a 226 from deck 5
+Player6 discards a 58 to deck 6
+Hand: 6 110 141 226
+Player6 draws a 231 from deck 5
+Player6 discards a 110 to deck 6
+Hand: 6 141 226 231
+Player6 draws a 42 from deck 5
+Player6 discards a 141 to deck 6
+Hand: 6 226 231 42
+Player6 draws a 36 from deck 5
+Player6 discards a 226 to deck 6
+Hand: 6 231 42 36
+Player6 draws a 62 from deck 5
+Player6 discards a 231 to deck 6
+Hand: 6 42 36 62
+Player6 draws a 206 from deck 5
+Player6 discards a 42 to deck 6
+Hand: 6 36 62 206
+Player6 draws a 153 from deck 5
+Player6 discards a 36 to deck 6
+Hand: 6 62 206 153
+Player6 draws a 183 from deck 5
+Player6 discards a 62 to deck 6
+Hand: 6 206 153 183
+Player6 draws a 46 from deck 5
+Player6 discards a 206 to deck 6
+Hand: 6 153 183 46
+Player6 draws a 198 from deck 5
+Player6 discards a 153 to deck 6
+Hand: 6 183 46 198
+Player6 draws a 201 from deck 5
+Player6 discards a 183 to deck 6
+Hand: 6 46 198 201
+Player6 draws a 7 from deck 5
+Player6 discards a 46 to deck 6
+Hand: 6 198 201 7
+Player6 draws a 8 from deck 5
+Player6 discards a 198 to deck 6
+Hand: 6 201 7 8
+Player6 draws a 186 from deck 5
+Player6 discards a 201 to deck 6
+Hand: 6 7 8 186
+Player6 draws a 209 from deck 5
+Player6 discards a 7 to deck 6
+Hand: 6 8 186 209
+Player6 draws a 92 from deck 5
+Player6 discards a 8 to deck 6
+Hand: 6 186 209 92
+Player6 draws a 68 from deck 5
+Player6 discards a 186 to deck 6
+Hand: 6 209 92 68
+Player6 draws a 148 from deck 5
+Player6 discards a 209 to deck 6
+Hand: 6 92 68 148
+Player6 draws a 240 from deck 5
+Player6 discards a 92 to deck 6
+Hand: 6 68 148 240
+Player6 draws a 43 from deck 5
+Player6 discards a 68 to deck 6
+Hand: 6 148 240 43
+Player6 draws a 12 from deck 5
+Player6 discards a 148 to deck 6
+Hand: 6 240 43 12
+Player6 draws a 166 from deck 5
+Player6 discards a 240 to deck 6
+Hand: 6 43 12 166
+Player6 draws a 151 from deck 5
+Player6 discards a 43 to deck 6
+Hand: 6 12 166 151
+Player6 draws a 115 from deck 5
+Player6 discards a 12 to deck 6
+Hand: 6 166 151 115
+Player6 draws a 122 from deck 5
+Player6 discards a 166 to deck 6
+Hand: 6 151 115 122
+Player6 draws a 161 from deck 5
+Player6 discards a 151 to deck 6
+Hand: 6 115 122 161
+Player6 draws a 239 from deck 5
+Player6 discards a 115 to deck 6
+Hand: 6 122 161 239
+Player6 draws a 164 from deck 5
+Player6 discards a 122 to deck 6
+Hand: 6 161 239 164
+Player6 draws a 106 from deck 5
+Player6 discards a 161 to deck 6
+Hand: 6 239 164 106
+Player6 draws a 125 from deck 5
+Player6 discards a 239 to deck 6
+Hand: 6 164 106 125
+Player6 draws a 177 from deck 5
+Player6 discards a 164 to deck 6
+Hand: 6 106 125 177
+Player6 draws a 70 from deck 5
+Player6 discards a 106 to deck 6
+Hand: 6 125 177 70
+Player6 draws a 48 from deck 5
+Player6 discards a 125 to deck 6
+Hand: 6 177 70 48
+Player6 draws a 130 from deck 5
+Player6 discards a 177 to deck 6
+Hand: 6 70 48 130
+Player6 draws a 87 from deck 5
+Player6 discards a 70 to deck 6
+Hand: 6 48 130 87
+Player6 draws a 83 from deck 5
+Player6 discards a 48 to deck 6
+Hand: 6 130 87 83
+Player6 draws a 192 from deck 5
+Player6 discards a 130 to deck 6
+Hand: 6 87 83 192
+Player6 draws a 207 from deck 5
+Player6 discards a 87 to deck 6
+Hand: 6 83 192 207
+Player6 draws a 174 from deck 5
+Player6 discards a 83 to deck 6
+Hand: 6 192 207 174
+Player6 draws a 123 from deck 5
+Player6 discards a 192 to deck 6
+Hand: 6 207 174 123
+Player6 draws a 64 from deck 5
+Player6 discards a 207 to deck 6
+Hand: 6 174 123 64
+Player6 draws a 162 from deck 5
+Player6 discards a 174 to deck 6
+Hand: 6 123 64 162
+Player6 draws a 75 from deck 5
+Player6 discards a 123 to deck 6
+Hand: 6 64 162 75
+Player6 draws a 222 from deck 5
+Player6 discards a 64 to deck 6
+Hand: 6 162 75 222
+Player6 draws a 143 from deck 5
+Player6 discards a 162 to deck 6
+Hand: 6 75 222 143
+Player6 draws a 167 from deck 5
+Player6 discards a 75 to deck 6
+Hand: 6 222 143 167
+Player6 draws a 188 from deck 5
+Player6 discards a 222 to deck 6
+Hand: 6 143 167 188
+Player6 draws a 61 from deck 5
+Player6 discards a 143 to deck 6
+Hand: 6 167 188 61
+Player6 draws a 194 from deck 5
+Player6 discards a 167 to deck 6
+Hand: 6 188 61 194
+Player6 draws a 117 from deck 5
+Player6 discards a 188 to deck 6
+Hand: 6 61 194 117
+Player6 draws a 159 from deck 5
+Player6 discards a 61 to deck 6
+Hand: 6 194 117 159
+Player6 draws a 140 from deck 5
+Player6 discards a 194 to deck 6
+Hand: 6 117 159 140
+Player6 draws a 173 from deck 5
+Player6 discards a 117 to deck 6
+Hand: 6 159 140 173
+Player6 draws a 165 from deck 5
+Player6 discards a 159 to deck 6
+Hand: 6 140 173 165
+Player6 draws a 47 from deck 5
+Player6 discards a 140 to deck 6
+Hand: 6 173 165 47
+Player6 draws a 191 from deck 5
+Player6 discards a 173 to deck 6
+Hand: 6 165 47 191
+Player6 draws a 134 from deck 5
+Player6 discards a 165 to deck 6
+Hand: 6 47 191 134
+Player6 draws a 72 from deck 5
+Player6 discards a 47 to deck 6
+Hand: 6 191 134 72
+Player6 draws a 197 from deck 5
+Player6 discards a 191 to deck 6
+Hand: 6 134 72 197
+Player6 draws a 204 from deck 5
+Player6 discards a 134 to deck 6
+Hand: 6 72 197 204
+Player6 draws a 9 from deck 5
+Player6 discards a 72 to deck 6
+Hand: 6 197 204 9
+Player6 draws a 227 from deck 5
+Player6 discards a 197 to deck 6
+Hand: 6 204 9 227
+Player6 draws a 119 from deck 5
+Player6 discards a 204 to deck 6
+Hand: 6 9 227 119
+Player6 draws a 120 from deck 5
+Player6 discards a 9 to deck 6
+Hand: 6 227 119 120
+Player6 draws a 53 from deck 5
+Player6 discards a 227 to deck 6
+Hand: 6 119 120 53
+Player6 draws a 121 from deck 5
+Player6 discards a 119 to deck 6
+Hand: 6 120 53 121
+Player6 draws a 39 from deck 5
+Player6 discards a 120 to deck 6
+Hand: 6 53 121 39
+Player6 draws a 189 from deck 5
+Player6 discards a 53 to deck 6
+Hand: 6 121 39 189
+Player6 draws a 73 from deck 5
+Player6 discards a 121 to deck 6
+Hand: 6 39 189 73
+Player6 draws a 137 from deck 5
+Player6 discards a 39 to deck 6
+Hand: 6 189 73 137
+Player6 draws a 51 from deck 5
+Player6 discards a 189 to deck 6
+Hand: 6 73 137 51
+Player6 draws a 40 from deck 5
+Player6 discards a 73 to deck 6
+Hand: 6 137 51 40
+Player6 draws a 215 from deck 5
+Player6 discards a 137 to deck 6
+Hand: 6 51 40 215
+Player6 draws a 111 from deck 5
+Player6 discards a 51 to deck 6
+Hand: 6 40 215 111
+Player6 draws a 211 from deck 5
+Player6 discards a 40 to deck 6
+Hand: 6 215 111 211
+Player6 draws a 158 from deck 5
+Player6 discards a 215 to deck 6
+Hand: 6 111 211 158
+Player6 draws a 103 from deck 5
+Player6 discards a 111 to deck 6
+Hand: 6 211 158 103
+Player6 draws a 44 from deck 5
+Player6 discards a 211 to deck 6
+Hand: 6 158 103 44
+Player6 draws a 77 from deck 5
+Player6 discards a 158 to deck 6
+Hand: 6 103 44 77
+Player6 draws a 169 from deck 5
+Player6 discards a 103 to deck 6
+Hand: 6 44 77 169
+Player6 draws a 168 from deck 5
+Player6 discards a 44 to deck 6
+Hand: 6 77 169 168
+Player6 draws a 138 from deck 5
+Player6 discards a 77 to deck 6
+Hand: 6 169 168 138
+Player6 draws a 113 from deck 5
+Player6 discards a 169 to deck 6
+Hand: 6 168 138 113
+Player6 draws a 94 from deck 5
+Player6 discards a 168 to deck 6
+Hand: 6 138 113 94
+Player6 draws a 160 from deck 5
+Player6 discards a 138 to deck 6
+Hand: 6 113 94 160
+Player6 draws a 124 from deck 5
+Player6 discards a 113 to deck 6
+Hand: 6 94 160 124
+Player2 has informed Player6 that Player2 has won
+Player6 exits
+Player6 hand: 6 94 160 124

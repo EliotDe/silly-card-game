@@ -99,7 +99,7 @@ public class GameLoop implements Runnable{
             }
 
             try {
-                Thread.sleep(1);
+                Thread.sleep(1000); //optimises
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

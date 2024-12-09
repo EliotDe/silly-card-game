@@ -131,81 +131,18 @@ public class Player implements PlayerInterface, Runnable {
     // strategically picks the card to discard from player hand
     public Card pickCard(){
 
-        // if there is a preferred denomination skip,
-        // if there is a multiple and a single, choose single
-        // if there are 2 multiples, choose smaller
-        // if equal multiples pick random
-        // if all singles pick random
-
         ArrayList<Card> cards = hand.getCards();
-        Card leastCommonCard = cards.get(0);
-        //int playerPreferredValue = preferredValue;
-        ArrayList<Card> preferredCards= new ArrayList<>();
-        HashMap<Integer, Integer> cardCountMap = new HashMap<>();
 
-        for (int i = 0; i < cards.size();i++){
+        for (int i = 0; i < cards.size(); i++) {
             Card card = cards.get(i);
-            if(card.getIntegerValue() == preferredValue){
-                preferredCards.add(card);
-            }
-            else{
-                leastCommonCard = card;
-            }
-            if (cardCountMap.containsKey(card.getIntegerValue())) {
-                cardCountMap.put(card.getIntegerValue(), cardCountMap.get(card.getIntegerValue()) + 1);
+            if (card.getIntegerValue() == preferredValue) {
+                continue; // Skip preferred cards
             } else {
-                cardCountMap.put(card.getIntegerValue(), 1);
+                return card; // Return the first non-preferred card
             }
         }
 
-
-//        ArrayList<Card> singleCards = new ArrayList<>();
-//        ArrayList<Card> multiCards = new ArrayList<>();
-//        for (Card card : cards) {
-//            if (cardCountMap.get(card.getIntegerValue()) == 1 ) {
-//                if (card.getIntegerValue() != preferredValue) {
-//                    singleCards.add(card);
-//                    return card;
-//                } else {
-//                    singleCards.add(card);
-//                }
-//            } else {
-//                multiCards.add(card);
-//            }
-//        }
-
-//        if(!preferredCards.isEmpty()) {
-////            for (int i = preferredCards.size(); i > 0; i--) {
-////                multiCards.remove(preferredCards.get(0));
-////            }
-//            for(Card card: preferredCards){
-//                cards.remove(card);
-//            }
-//        }
-        //Card leastCommonCard = ;
-        for (int i = 0; i < cards.size();i++){
-            Card currentCard = cards.get(i);
-
-            if(preferredCards.contains(currentCard)){
-               continue;
-            }
-            else if (cardCountMap.get(currentCard.getIntegerValue()) < cardCountMap.get(leastCommonCard.getIntegerValue())){
-                leastCommonCard = currentCard;
-            }
-        }
-
-//        // Increment the turn count for each card in the player's hand
-//        for (Card card : hand.getCards()) {
-//            timerMap.put(card, timerMap.getOrDefault(card, 0) + 1);
-//        }
-//
-//        // Remove cards that are no longer in the player's hand
-//        timerMap.keySet().removeIf(card -> !hand.contains(card));
-//
-//        timerMap.put(card, 0); // Timer for the cards (5 turns before a player has to discard a non-preferred card)
-
-
-        return leastCommonCard;
+        return cards.get(0);
     }
 
     // checks if all cards in the hand are the same

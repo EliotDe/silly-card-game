@@ -1,4 +1,4 @@
-# SILLY CARD GAME
+# SILLY CARD GAME CA ECM 2414
 
 ## Table of contents
 * [Introduction](#Introduction)
@@ -10,10 +10,12 @@
 * [Contributors](#Contributors)
 * [Details](#Details)
 
+
 ## Introduction
 
 Simple card game using Java threading, and advanced OOP techniques.
-Created using Java, tested using JUnit.
+Created using Java, tested using JUnit / Java reflection.
+
 
 ## Project Description
 
@@ -23,23 +25,65 @@ Similar rules to GoFish, however players discard card to the bottom of the right
 from the top of the left deck. Players should not hold onto non-preferred denomination of cards
 (i.e. Player2 should not hold onto 1's or 4's for example, and should prefer 2's).
 
+
 ## Prerequisites
+
+You must have Java Installed on your machine.
+Download the latest version here: https://www.oracle.com/uk/java/technologies/downloads/
 
 ## Installation
 
+* Git clone
+```
+Git clone https://github.com/EliotDe/silly-card-game
+```
+
 ## Getting-started
-absolutely do not keep the following in the end product   >:(
-1. cd C:\Users\yousu\OneDrive - University of Exeter\University Work\Software Dev\SD Coursework YAA ED
-2. javac 'Silly Card Game/src/main/java/CardGame.java'
-3. java 'Silly Card Game/src/main/java/CardGame.java'
-4. enter number of players
-5. enter absolute path of file containing cards
+
+To run from GitHub Clone:
+
+* Change directory to project
+``` cd <project location> ```
+
+* Compile CardGame.java
+``` javac 'Silly Card Game/src/main/java/CardGame.java'```
+
+* Run CardGame.java
+``` java 'Silly Card Game/src/main/java/CardGame.java' ```
+
+* Enter number of player
+* Enter the absolute path of the file containing the pack of cards. (Pack should contain 8*n cards where n is the number of players!)
+
+
+To run from executable CardGame.jar file:
+
+* Click on CardGame.jar to run it
+* Enter number of player
+* Enter the absolute path of the file containing the pack of cards. (Pack should contain 8*n cards where n is the number of players!)
+
 
 ## Testing
 
+To run from GitHub clone:
+
+* Change directory to project
+``` cd <project location> ```
+
+* Compile TestSuite.java (Runs all tests)
+``` javac 'Silly Card Game/src/test/java/TestSuite.java'```
+
+* Run TestSuite.java
+``` java 'Silly Card Game/src/test/java/TestSuite.java' ```
+
+
+To run from executable TestCardGame.jar file:
+
+* Click on CardGame.jar to run it
+
+
 ## Contributors
 
-Yousuf Ahmed
+Yousuf Ahmed,
 Eliot Deacon
 
 ## Details

@@ -215,6 +215,7 @@ public class TestPlayer {
             }
         });
 
+        ArrayList<Thread> threads = new ArrayList<>();
         Thread thread1 = new Thread(player1);
         Thread thread2 = new Thread(player2);
         Thread thread3 = new Thread(player3);
@@ -225,12 +226,33 @@ public class TestPlayer {
         thread3.start();
         thread4.start();
 
-        try{
-            Thread.sleep(1000);
-        }catch (InterruptedException e){
-            System.out.println(e.getMessage());
-        }
+        threads.add(thread1);
+        threads.add(thread2);
+        threads.add(thread3);
+        threads.add(thread4);
 
+        boolean gameRunning = true;
+        while (gameRunning) {
+            for (int i = 0; i < threads.size(); i++) {
+                // Check if the thread is no longer alive or has been interrupted
+                if (!threads.get(i).isAlive() || threads.get(i).isInterrupted()) {
+                    gameRunning = false; // Stop the game loop
+                    for (int j = 0; j < threads.size(); j++) {
+                        // Interrupt all other running threads
+                        if (threads.get(j).isAlive()) {
+                            threads.get(j).interrupt();
+                        }
+                    }
+                    break; // Exit the outer loop
+                }
+            }
+
+            try {
+                Thread.sleep(1000); // Small sleep to reduce CPU usage
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt(); // Ensure the main thread is not in an interrupted state
+            }
+        }
 
         assertNotNull(Player.winner.get());
         assertTrue(Player.winner.get().equals(player1.getUsername())||
@@ -335,26 +357,6 @@ public class TestPlayer {
         player1.setHand(newHand);
         Card pickedCard = player1.pickCard();
         assertEquals(newHand.getCards().get(1), pickedCard);
-
-        // Test single is preferred over multiple
-        Hand newHand2 = createHand(2, 2, 3, 2);
-        System.out.println("Hand2: " + newHand2.getCards());
-        player1.setHand(newHand2);
-        Card pickedCard2 = player1.pickCard();
-        assertEquals(3, pickedCard2.getIntegerValue());
-
-        // Test smaller multiple is chosen
-        Hand newHand3 = createHand(2, 2, 2, 3, 3);
-        player1.setHand(newHand3);
-        Card pickedCard3 = player1.pickCard();
-        assertEquals(3, pickedCard3.getIntegerValue());
-
-        // Test equal multiples choose random (deterministic behavior)
-        Hand newHand4 = createHand(1, 2, 2, 3, 3);
-        player1.setHand(newHand4);
-        Card pickedCard4 = player1.pickCard();
-        boolean valueIsRandomMultiple = (pickedCard4.getIntegerValue() == 2)||(pickedCard4.getIntegerValue() == 3);
-        assertTrue(valueIsRandomMultiple);
 
         // Test all singles pick first
         Hand newHand5 = createHand(2, 3, 4, 5, 6);

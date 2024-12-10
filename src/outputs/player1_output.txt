@@ -1,0 +1,58 @@
+Player1 initial hand: 1 2 3 2
+Player1 draws a 22 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 3 2 22
+Player1 draws a 21 from deck 4
+Player1 discards a 3 to deck 1
+Hand: 1 2 22 21
+Player1 draws a 20 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 22 21 20
+Player1 draws a 19 from deck 4
+Player1 discards a 22 to deck 1
+Hand: 1 21 20 19
+Player1 draws a 100 from deck 4
+Player1 discards a 21 to deck 1
+Hand: 1 20 19 100
+Player1 draws a 2 from deck 4
+Player1 discards a 20 to deck 1
+Hand: 1 19 100 2
+Player1 draws a 30 from deck 4
+Player1 discards a 19 to deck 1
+Hand: 1 100 2 30
+Player1 draws a 2 from deck 4
+Player1 discards a 100 to deck 1
+Hand: 1 2 30 2
+Player1 draws a 41 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 30 2 41
+Player1 draws a 18 from deck 4
+Player1 discards a 30 to deck 1
+Hand: 1 2 41 18
+Player1 draws a 2 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 41 18 2
+Player1 draws a 17 from deck 4
+Player1 discards a 41 to deck 1
+Hand: 1 18 2 17
+Player1 draws a 9 from deck 4
+Player1 discards a 18 to deck 1
+Hand: 1 2 17 9
+Player1 draws a 2 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 17 9 2
+Player1 draws a 10 from deck 4
+Player1 discards a 17 to deck 1
+Hand: 1 9 2 10
+Player1 draws a 41 from deck 4
+Player1 discards a 9 to deck 1
+Hand: 1 2 10 41
+Player1 draws a 16 from deck 4
+Player1 discards a 2 to deck 1
+Hand: 1 10 41 16
+Player1 draws a 15 from deck 4
+Player1 discards a 10 to deck 1
+Hand: 1 41 16 15
+Player1 draws a 10 from deck 4
+Player1 discards a 41 to deck 1
+Hand: 1 16 15 10

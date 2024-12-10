@@ -1,0 +1,34 @@
+Player3 initial hand: 9 2 10 41
+Player3 draws a 16 from deck 2
+Player3 discards a 9 to deck 3
+Hand: 2 10 41 16
+Player3 draws a 15 from deck 2
+Player3 discards a 2 to deck 3
+Hand: 10 41 16 15
+Player3 draws a 3 from deck 2
+Player3 discards a 10 to deck 3
+Hand: 41 16 15 3
+Player3 draws a 10 from deck 2
+Player3 discards a 41 to deck 3
+Hand: 16 15 3 10
+Player3 draws a 6 from deck 2
+Player3 discards a 16 to deck 3
+Hand: 15 3 10 6
+Player3 draws a 7 from deck 2
+Player3 discards a 15 to deck 3
+Hand: 3 10 6 7
+Player3 draws a 8 from deck 2
+Player3 discards a 10 to deck 3
+Hand: 3 6 7 8
+Player3 draws a 9 from deck 2
+Player3 discards a 6 to deck 3
+Hand: 3 7 8 9
+Player3 draws a 31 from deck 2
+Player3 discards a 7 to deck 3
+Hand: 3 8 9 31
+Player3 draws a 21 from deck 2
+Player3 discards a 8 to deck 3
+Hand: 3 9 31 21
+Player3 draws a 3 from deck 2
+Player3 discards a 9 to deck 3
+Hand: 3 31 21 3

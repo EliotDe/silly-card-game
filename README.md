@@ -57,7 +57,8 @@ To run from GitHub Clone:
 
 To run from executable CardGame.jar file:
 
-* Click on CardGame.jar to run it
+* Run CardGame.jar
+```java CardGame.jar```
 * Enter number of player
 * Enter the absolute path of the file containing the pack of cards. (Pack should contain 8*n cards where n is the number of players!)
 * Resources folder: (default.txt = 3 players, default2,txt = 30 players, default3 = 10 players)
